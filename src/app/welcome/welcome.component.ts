@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
+  @ViewChild('name') nameKey !: ElementRef
+  public routeLink = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  startGame() {
+    if (this.nameKey.nativeElement.value === "") {
+      alert("Please enter your name");
+      this.routeLink = "answer";
+    }
+    localStorage.setItem("name", this.nameKey.nativeElement.value);
+    this.routeLink = "question";
   }
 
 }

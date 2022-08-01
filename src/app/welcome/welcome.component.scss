@@ -1,0 +1,14 @@
+.welcome {
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+
+  .rules {
+    border-radius: 10px;
+    
+    li {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
