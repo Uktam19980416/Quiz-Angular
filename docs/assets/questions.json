@@ -1,0 +1,36 @@
+{
+  "question": [
+    {"questionText": "What is the name of the main character in the movie?",
+    "options": [
+      {"text": "The Joker", "correct": true},
+      {"text": "Batman"},
+      {"text": "Superman"},
+      {"text": "The Flash"}
+      ]
+    },
+    {"questionText": "What is your favorite color?",
+    "options": [
+      {"text": "Red", "correct": true},
+      {"text": "Blue"},
+      {"text": "Green"},
+      {"text": "Yellow"}
+      ]
+    },
+    {"questionText": "What is your favorite food?",
+    "options": [
+      {"text": "Pizza", "correct": true},
+      {"text": "Pasta"},
+      {"text": "Steak"},
+      {"text": "Chicken"}
+      ]
+    },
+    {"questionText": "What is your favorite movie?",
+    "options": [
+      {"text": "The Shawshank Redemption", "correct": true},
+      {"text": "The Godfather"},
+      {"text": "The Dark Knight"},
+      {"text": "The Matrix"}
+      ]
+    }
+  ]
+}
